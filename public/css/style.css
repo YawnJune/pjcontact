@@ -1,0 +1,130 @@
+
+/* ==============================
+   COULEURS DE MON CARNET
+================================ */
+
+:root {
+    --vert-pastel: #C8E6C9;
+    --vert-doux: #A5D6A7;
+    --vert-fonce: #386641;
+    --jaune-pastel: #FFF2B2;
+    --jaune-doux: #FFE58F;
+    --fond: #FAFCF7;
+    --blanc: #FFFFFF;
+    --texte: #354536;
+}
+
+/* ==============================
+   STYLE GENERAL
+================================ */
+
+body {
+    background-color: var(--fond);
+    color: var(--texte);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ==============================
+   BARRE DE NAVIGATION
+================================ */
+
+.navbar {
+    background-color: var(--vert-pastel);
+    padding: 15px 0;
+    border-bottom: 3px solid var(--jaune-pastel);
+}
+
+.navbar-brand {
+    color: var(--vert-fonce) !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--vert-fonce) !important;
+    font-weight: 500;
+    padding: 10px 14px !important;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: var(--jaune-pastel);
+    color: var(--vert-fonce) !important;
+}
+
+/* ==============================
+   BOUTON AJOUTER UN CONTACT
+================================ */
+
+.btn-ajouter {
+    background-color: var(--jaune-pastel);
+    color: var(--vert-fonce);
+    border: 1px solid var(--jaune-doux);
+    border-radius: 25px;
+    padding: 9px 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-ajouter:hover {
+    background-color: var(--jaune-doux);
+    color: var(--vert-fonce);
+}
+
+/* ==============================
+   CONTENU PRINCIPAL
+================================ */
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: var(--vert-fonce);
+}
+
+/* ==============================
+   CARTES DU TABLEAU DE BORD
+================================ */
+
+.card {
+    background-color: var(--blanc);
+    border: 1px solid var(--vert-pastel);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(56, 102, 65, 0.08);
+}
+
+.card-header {
+    background-color: var(--vert-pastel);
+    color: var(--vert-fonce);
+    border-radius: 15px 15px 0 0 !important;
+}
+
+/* ==============================
+   BOUTONS GENERAUX
+================================ */
+
+.btn-success {
+    background-color: var(--vert-fonce);
+    border-color: var(--vert-fonce);
+}
+
+.btn-success:hover {
+    background-color: #2D5234;
+    border-color: #2D5234;
+}
+
+.btn-warning {
+    background-color: var(--jaune-pastel);
+    color: var(--vert-fonce);
+    border-color: var(--jaune-doux);
+}
+
+.btn-warning:hover {
+    background-color: var(--jaune-doux);
+    color: var(--vert-fonce);
+}
